@@ -1,6 +1,6 @@
 provider "aws" {
 <<<<<<< HEAD
-  region = "eu-east-1"
+  region = "us-east-1"
 =======
   region = "us-east-1"
 >>>>>>> 39756cf70b580e7acf7b68c7aebbc0568dc8a75e
