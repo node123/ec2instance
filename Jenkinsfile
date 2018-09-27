@@ -35,11 +35,11 @@ pipeline {
             }
         }
 		
-		stage ('Terraform Apply') {
-			Steps {
-				sh 'ls ./jenkins; sudo /home/ubuntu/terraform plan ./jenkins'
-			}
-		}
+#		stage ('Terraform Apply') {
+#			steps {
+#				sh 'ls ./jenkins; sudo /home/ubuntu/terraform plan ./jenkins'
+#			}
+#		}
   
         stage('terraform ended') {
             steps {
